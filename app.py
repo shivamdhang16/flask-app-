@@ -11,7 +11,7 @@ DB_PASSWORD = "admin123"   # SonarQube should flag hardcoded credentials
 
 @app.route("/")
 def home():
-    return "Hello from Flask inside Docker on port 6002!...v2"
+    return "Hello from Flask inside Docker on port 6002!...v3"
 
 # --- Intentional: SQL built via string concatenation (SQL injection risk) ---
 @app.route("/user")
